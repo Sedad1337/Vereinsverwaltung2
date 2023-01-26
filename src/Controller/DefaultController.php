@@ -11,7 +11,7 @@ class DefaultController extends AbstractController
     #[Route('/')]
     public function index(): Response
     {
-        return $this->render('public/sedad.html', [
+        return $this->render('sedad.html', [
             'controller_name' => 'DefaultController',
         ]);
     }
